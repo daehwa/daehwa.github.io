@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
-gem 'github-pages'
+gem 'daehwa.github.io'
 gem 'jekyll-paginate'
