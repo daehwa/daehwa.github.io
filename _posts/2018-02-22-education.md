@@ -10,6 +10,6 @@ __B.S.__ in Electrical and Computer Engineering <br />
 <br />
 <br />
 2013 - 2015<br />
-Gyeongsan Science High School, Gyeongsan, Korea, early graduated with certificate from president of UNIST (유니스트 총장상)<br />
+__Gyeongsan Science High School__, Gyeongsan, Korea, early graduated with certificate from president of UNIST (유니스트 총장상)<br />
 
 
