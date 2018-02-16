@@ -4,6 +4,10 @@ title: Research Experience
 ---
 
 2018.01.02 - 2018.02.28 <br />
-##IoT Headquarters @ ETRI<br />
-brabrabra...
+__Intern, IoT Headquarters @ ETRI__<br />
+<br />
+2017.02 - 2017.11 <br />
+__Intern, Inveractive Visual Analysis and Data Exploration Lab @ UNIST__<br />
+<br />
+
 
