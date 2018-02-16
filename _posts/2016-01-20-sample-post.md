@@ -1,8 +1,14 @@
 ---
 layout: post
-title: Sample post
+title: Education
 ---
 
-This is what a post on your blog looks like. This template is especially well suited for posting nice succint blurbs, much like [Seth Godin](http://sethgodin.typepad.com/) does. Of course, it will also work well with longer posts, and you can change the number of posts per page in the `_config.yml` file. There's no guarentee this blog will make you write as well as he does, but it will present your writings in a beautiful, clean, and distraction-free way. Try to write a little bit, every day.
+2015 - Present
+__B.S.__ in Electrical and Computer Engineering
+[__UNIST__(Ulsan National Institute of Science and Technology)](http://www.unist.ac.kr/), Ulsan, Korea, entered with [top honors](http://news.unist.ac.kr/kor/20150225-01/)
+![representative](../img/representative.jpg)
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+2013 - 2015
+Gyeongsan Science High School, Gyeongsan, Korea, early graduated with certificate from president of UNIST (유니스트 총장상)
+
+
