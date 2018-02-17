@@ -7,7 +7,9 @@
 
 # Site settings
 title: Daehwa Kim
-description: 'HCI with Machine Learning' # write a nice description for your blog
+email: daehwakim@unist.ac.kr
+description: >-
+  HCI with Machine Learning # write a nice description for your blog
 baseurl: '' # the subpath of your site, e.g. /blog
 url: '' # the base hostname & protocol for your site http://www.example.com
 # google_analytics: 'UA-XXXXXX-X'
