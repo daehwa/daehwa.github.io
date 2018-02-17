@@ -4,8 +4,8 @@ title: Research Experience
 ---
 
 2018.01.02 - 2018.02.28 <br />
-__Intern, IoT Headquarters @ ETRI__<br />
-> Build lighting control IoT system based on speech recognition<br />
+__Intern, Hyper-connected Communication Research Laboratory - IoT Research Division @ ETRI(한국전자통신연구원)__<br />
+> Build lighting control IoT system based on speech recognition (AI speaker: Amazon Alexa Echo, KT GiGA Genie)<br />
 
 <br />
 2017.02 - 2017.11 <br />
