@@ -6,7 +6,7 @@ title: Education
 2015 - Present <br />
 __B.S. in Electrical and Computer Engineering__ <br />
 [__UNIST__](http://www.unist.ac.kr/)__(Ulsan National Institute of Science and Technology)__, Ulsan, Korea, entered with top honors
-[![representative](../img/representative.png)](http://news.unist.ac.kr/kor/20150225-01/)
+[![representative](../img/student-representatives.png)](http://news.unist.ac.kr/2015-unist-matriculation-ceremony-2/)
 <br />
 <br />
 2013 - 2015<br />
