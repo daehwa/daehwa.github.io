@@ -3,7 +3,7 @@ layout: post
 title: Research Experience
 ---
 
-2018.03 - Current <br />
+2018.03 - 2018.06 <br />
 __Intern, Human Computer Interaction Lab ([HCIL](http://hcil.kaist.ac.kr/)) @ KAIST__
 
 <br />

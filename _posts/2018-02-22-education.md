@@ -3,7 +3,7 @@ layout: post
 title: Education
 ---
 
-2015 - Present <br />
+2015 - Current <br />
 __B.S. in Electrical and Computer Engineering__ <br />
 [__UNIST__](http://www.unist.ac.kr/)__(Ulsan National Institute of Science and Technology)__, Ulsan, Korea, entered with top honors <br />
 GPA 3.97/4.3
