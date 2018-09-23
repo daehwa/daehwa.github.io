@@ -12,7 +12,7 @@ description: 'Human Computer Interaction' # write a nice description for your bl
 baseurl: '' # the subpath of your site, e.g. /blog
 url: '' # the base hostname & protocol for your site http://www.example.com
 # google_analytics: 'UA-XXXXXX-X'
-twitter_username: 'talking_kim'
+twitter_username: #'talking_kim'
 
 # Build settings
 markdown: kramdown
