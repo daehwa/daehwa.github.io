@@ -12,6 +12,7 @@ __Vice President, [HeXA](http://hexa-unist.github.io/about/)(a computer security
 2015.03 - 2017.02<br />
 __Editor, [UNISTATION](https://youtu.be/Oq4fWaF6Gpo)(UNIST Media Center)__<br />
 [![My Age 22](./img/my_age_22.png)](https://youtu.be/kkXogIJGnsY)<br />
+[![My Age 22 facebook](./img/myage22facebook.png)](https://www.facebook.com/travelreason/videos/2170650016482777/)<br />
 > Skills: Adobe Premiere, Adobe After Effects, Sony Vegas, Adobe Photoshop, Adobe Illustrator, MAXON Cinema 4D<br />
 > Travel video: [__My Age 22__ - Travel to Europe with a drone](https://youtu.be/kkXogIJGnsY)<br />
 > Web Drama: [공대생들이 사는 마을](https://youtu.be/7Ta68YHYXf0)(A town where engineers live)<br />
