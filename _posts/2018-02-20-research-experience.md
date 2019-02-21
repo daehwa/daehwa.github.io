@@ -17,6 +17,6 @@ __Intern, Hyper-connected Communication Research Laboratory : IoT Research Divis
 
 2017.02 - 2017.11 <br />
 __Intern, Interactive Visual Analysis and Data Exploration Lab ([iVADER Lab](http://ivaderlab.unist.ac.kr/)) @ UNIST__<br />
-> Implement new touch interaction using capacitive touchscreen
+> Implement [finger joystick interaction](https://youtu.be/rT0laRR1UAg) on smart watch using capacitive touchscreen
 
 <br />
