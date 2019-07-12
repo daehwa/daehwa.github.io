@@ -15,8 +15,8 @@ __Editor, [UNISTATION](https://youtu.be/Oq4fWaF6Gpo)(UNIST Media Center)__<br />
 [![My Age 22 facebook](./img/myage22facebook.png)](https://www.facebook.com/travelreason/videos/2170650016482777/)<br />
 > Skills: Adobe Premiere, Adobe After Effects, Sony Vegas, Adobe Photoshop, Adobe Illustrator, MAXON Cinema 4D<br />
 > Travel video: [__My Age 22__ - Travel to Europe with a drone](https://youtu.be/kkXogIJGnsY)<br />
-> Web Drama: [공대생들이 사는 마을](https://youtu.be/7Ta68YHYXf0)(A town where engineers live)<br />
-> Entertainment: [만원의 행복](https://youtu.be/8tLIL4kHKLE), [유니스트 토요일 비디오](https://youtu.be/B3LqUNKN71A)<br />
+> Web Drama: [A town where engineers live](https://youtu.be/7Ta68YHYXf0)(공대생들이 사는 마을)<br />
+> Entertainment: [Happiness of $10](https://youtu.be/8tLIL4kHKLE)(만원의 행복), [UNIST Saturday Video](https://youtu.be/B3LqUNKN71A)(유니스트 토요일 비디오)<br />
 > Radio: 순발력,응답하라2002,마학식겠다,유니비전,유니백쑥<br />
 
 <br />
