@@ -1,0 +1,83 @@
+.fa {
+padding: 8px;
+font-size: 15px;
+width: 30px;
+margin-bottom: 3px;
+text-align: center;
+text-decoration: none;
+border-radius: 10%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-facebook:hover {
+  background: #3B5998;
+  color: white;
+  text-decoration:none;
+}
+
+.fa-twitter{
+  background: #55ACEE;
+  color: white;
+}
+.fa-twitter:hover{
+  background: #55ACEE;
+  color: white;
+  text-decoration:none;
+}
+
+.fa-instagram{
+  background: #DD2A7B;
+  color: white;
+}
+.fa-instagram:hover{
+  background: #DD2A7B;
+  color: white;
+  text-decoration: none;
+}
+
+.fa-youtube{
+  background: #E62117;
+  color: white;
+}
+.fa-youtube:hover{
+  background: #E62117;
+  color: white;
+  text-decoration: none;
+}
+
+.fa-github{
+  background: #211F1F;
+  color: white;
+}
+.fa-github:hover{
+  background: #211F1F;
+  color: white;
+  text-decoration: none;
+}
+
+.fa-linkedin{
+  background: #0077B5;
+  color: white;
+}
+.fa-linkedin:hover{
+  background: #0077B5;
+  color: white;
+  text-decoration: none;
+}
+
+.fa-google{
+  background: #EA4335;
+  color: white;
+}
+.fa-google:hover{
+  background: #EA4335;
+  color: white;
+  text-decoration: none;
+}

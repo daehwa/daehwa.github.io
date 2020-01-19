@@ -1,61 +1,179 @@
----
-layout: default
----
-
-
-{% for post in paginator.posts %}
-
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-    <div class="main-content" itemprop="articleBody">
-
-<a name="blog{{ forloop.index }}"></a>
-
-  <header class="post-header">
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h3 class="post-title" itemprop="name headline">{{ post.title }}</h3> </a>
-
-  </header>
-
-    {{ post.content }}
-
-<p class="post-meta" style="text-align: right; color: rgb(152,152,152);"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %} • <label for="our-popup-{{ forloop.index }}"><i class="fa fa-share"></i> Share / Permalink</label></p>
-
-	<span>
-		<input type="checkbox" id="our-popup-{{ forloop.index }}" class="smoosh" />
-
-		<!-- invisible; when checked, the popup opens -->
-		<label for="our-popup-{{ forloop.index }}" class="overlay"></label>
-
-		<!-- the popup starts here -->
-		<div class="overlay-dialogue">
-			<h3>Share "{{ post.title  }}"</h3>
-
-            <!-- Target -->
-<input id="foo{{ forloop.index }}" value="{{ site.url }}{{ post.url }}" type="url">
-
-<!-- Trigger -->
-<button class="share-btn" data-clipboard-target="#foo{{ forloop.index }}">COPY LINK
-</button>
-            <p style="text-align: center;">Share on: <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ post.url }}" target="_blank">Facebook</a> • <a href="https://twitter.com/share?url={{ site.url }}{{ post.url }}&amp;text={{ post.title }}" target="_blank">Twitter</a>
-
-			<p style="text-align: center;"><label for="our-popup-{{ forloop.index }}">cancel</label></p>
-		</div>
-	</span>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Daehwa Kim</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="icon_style.css">
+  <link rel="stylesheet" type="text/css" href="design_style.css">
+  <!-- JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body class="home blog custom-background wp-custom-logo group-blog" data-gr-c-s-loaded="true">
+  <div class="container">
+    <!-- header -->
+    <div class="jumbotron text-center mb-0">
+      <img src="img/profile.jpg" class="profile">
+      <h1 class="display-3">Daehwa Kim</h1>
+    <div>
+          <a href="https://github.com/daehwa" target="_blank" class="fa fa-github"></a>
+          <a href="#" target="_blank" class="fa fa-google"></a>
+          <a href="https://twitter.com/talking_kim" target="_blank" class="fa fa-twitter"></a>
+          <a href="https://www.linkedin.com/in/daehwa-kim-790a02147/" target="_blank" class="fa fa-linkedin"></a>
+          <a href="https://www.youtube.com/channel/UC7T2o3Phrj1e-xM7w7vmzhw?view_as=subscriber" target="_blank" class="fa fa-youtube"></a>
+          <a href="https://www.instagram.com/talking_kim/" target="_blank" class="fa fa-instagram"></a>
+          <a href="https://www.facebook.com/daehwaaa" target="_blank" class="fa fa-facebook"></a>
+        </div>
+  </div>
+  <hr style="margin-right: 20px; margin-left: 20px;">
+    <div class="container" style="padding: 30px; padding-top: 0px">
+      <!-- content -->
+        <h2>EDUCATION</h2>
+        <div class="textbox">
+          <p class="lead date">2019.03 - Current</p>
+          <p class="lead"><strong>M.S. candidate in the <a href="https://cs.kaist.ac.kr/" target="_blank">School of Computing</a></strong></p>
+          <p class="lead"><strong><a href="http://www.kaist.edu/html/en/index.html" target="_blank">KAIST</a>(Korea Advanced Institute of Science and Technology), Daejeon, Korea</strong></p>
+          <p class="lead"><strong>Adviserd by <a href="https://scholar.google.com/citations?user=wBXkmcQAAAAJ&hl=en" target="_blank">Geehyuk Lee</a> @ <a href="https://hcil.kaist.ac.kr/" target="_blank">KAIST HCI Lab</a></strong></p>
+        </div>
+        <div class="textbox">
+          <p class="lead date">2015.03 - 2019.02</p>
+          <p class="lead"><strong>B.S. in <a href="http://ece.unist.ac.kr/" target="_blank">Electrical and Computer Engineering</a></strong></p>
+          <p class="lead"><strong><a href="https://www.unist.ac.kr/" target="_blank">UNIST</a>(Ulsan National Institute of Science and Technology), Ulsan, Korea, entered with top honors</strong></p>
+          <a href="https://news.unist.ac.kr/2015-unist-matriculation-ceremony-2/" target="_blank"><img src="img/student-representatives.png" class="col-sm-6 center img-fluid rounded"></a>
+        </div>
+        <hr>
+        <!-- side menu (link) -->
+        <h3>PUBLICATIONS</h3>
+        <div class="textbox">
+          <p class="lead author">Keunwoo Park, <mark><strong>Daehwa Kim</strong></mark>, Seongkook Heo, Geehyuk Lee</p>
+          <p class="lead title"><strong>MagTouch: Robust Finger Identification for a Smartwatch Using a Magnet Ring and a Built-in Magnetometer</strong></p>
+          <p class="lead publisher">CHI 2020: ACM Conference on Human Factors in Computing Systems. (Cond. Accepted)</p>
+          <p class="lead link"><a href="#">Paper</a> | <a href="#">Video</a></p>
+        </div>
+        <hr>
+        <h3>AWARDS</h3>
+        <div class="textbox">
+          <p class="lead date">Dec, 2017</p>
+          <p class="lead paper"><strong>Consolation Prize(장려상), NAVER UUPA</strong></p>
+          <p class="lead publisher">Awarded by NAVER CEO, Received an award of 1,000,000 KWR</p>
+        </div>
+        <div class="textbox">
+          <p class="lead date">Dec, 2016</p>
+          <p class="lead paper"><strong>Excellence award, World Friends ICT volunteers return report 2016</strong></p>
+          <p class="lead publisher">Awarded by the Director of National Information Society Agency, Received an award of Samsung Galaxy Tab 4 10.1
+          </p>
+        </div>
+        <div class="textbox">
+          <p class="lead paper"><strong>Academic Achievement Award</strong></p>
+          <p class="lead date">2017 2nd Academic Achievement Award (Jan, 2018): GPA 4.05/4.3</p>
+          <p class="lead date">2017 1st Academic Achievement Award (Jul, 2017): GPA 3.98/4.3</p>
+          <p class="lead date">2016 2nd Academic Achievement Award (Feb, 2016): GPA 3.90/4.3</p>
+          <p class="lead date">2016 1st Academic Achievement Award (Aug, 2016): GPA 4.06/4.3</p>
+          <p class="lead date">2015 1st Academic Achievement Award (Jul, 2015): GPA 4.00/4.3</p>
+        </div>
+        <hr>
+        <h3>RESEARCH EXPERIENCES</h3>
+        <div class="textbox">
+          <p class="lead date">2018.03 - 2018.06</p>
+          <p class="lead title"><strong>Intern, Human Computer Interaction Lab (<a href="https://hcil.kaist.ac.kr" target="_blank">HCIL</a>) @ KAIST</strong></p>
+        </div>
+        <div class="textbox">
+          <p class="lead date">2018.01.01 - 2018.02.28</p>
+          <p class="lead title"><strong>Intern, Intern, Hyper-connected Communication Research Laboratory : IoT Research Division @ <a href="https://www.etri.re.kr/eng/main/main.etri" target="_blank">ETRI</a>(한국전자통신연구원)</strong></p>
+        </div>
+        <div class="textbox">
+          <p class="lead date">2017.02 - 2017.11</p>
+          <p class="lead title"><strong>Intern, Interactive Visual Analysis and Data Exploration Lab (<a href="http://ivaderlab.unist.ac.kr/" target="_blank">iVADER Lab</a>) @ UNIST</strong></p>
+        </div>
+        <hr>
+        <h3>VOLUNTEER ACTIVITIES</h3>
+        <div class="textbox">
+          <p class="lead date">2016.07 - 2016.09</p>
+          <p class="lead title"><strong>Instructor (Android development) @ Tashkent University of Information Technologies(<a href="https://en.wikipedia.org/wiki/Tashkent_University_of_Information_Technologies" target="_blank">TUIT</a>)</strong></p>
+          <p class="lead publisher">Excellence award, World Friends ICT volunteers return report 2016 (Dec 2016)</p>
+        </div>
+        <hr>
+        <h3>CAMPUS ACTIVITIES</h3>
+        <div class="textbox">
+          <p class="lead date">2016.02 - 2017.02</p>
+          <p class="lead title"><strong>Campus Partner, <a href="https://d2.naver.com/home" target="_blank">NAVER D2</a> factory</strong></p>
+        </div>
+        <div class="textbox">
+          <p class="lead date">2015.12 - 2017.02</p>
+          <p class="lead title"><strong>Vice President, <a href="http://hexa-unist.github.io/about/" target="_blank">HeXA</a>(Hacker’s eXciting Academy; a computer security & development research group) @ UNIST</strong></p>
+        </div>
+        <div class="textbox">
+          <p class="lead date">2015.03 - 2017.02</p>
+          <p class="lead title"><strong>Editor, <a href="https://www.youtube.com/watch?v=Oq4fWaF6Gpo&feature=youtu.be">UNISTATION</a>(UNIST Media Center)</strong></p>
+          <img class="col-sm-6 center" src="img/my_age_22.png">
+          <img class="col-sm-6 center" src="img/myage22facebook.png">
+        </div>
+        <hr>
+        <h3>PROJECTS</h3>
+        <div class="row">
+          <div class="col-sm-3 textbox">
+            <div style="background: black;">
+              <img src="img/VRone.png" class="img-fluid img-hover">
+            </div>
+            <p class="lead center">VRone</p>
+            <p class="lead link center"><a href="#">Paper</a> | <a href="#">Video</a> | <a href="#">Code</a></p>
+          </div>
+          <div class="col-sm-3 textbox">
+            <div style="background: black;">
+              <img src="img/systemLight2.png" class="img-fluid img-hover">
+            </div>
+            <p class="lead center">System Light 2.0</p>
+            <p class="lead link center"><a href="#">Video1</a> | <a href="#">Video2</a> | <a href="#">Video3</a></p>
+          </div>
+          <div class="col-sm-3 textbox">
+            <div style="background: black;">
+              <img src="img/VibCat.png" class="img-fluid img-hover">
+            </div>
+            <p class="lead center">VibCat</p>
+            <p class="lead link center"><a href="#">Poster</a> | <a href="#">Video</a> | <a href="#">Code</a></p>
+          </div>
+          <div class="col-sm-3 textbox">
+            <div style="background: black;">
+              <img src="img/poem-a-moment.png" class="img-fluid img-hover">
+            </div>
+            <p class="lead center">잠詩(poem a moment)</p>
+            <p class="lead link center"><a href="#">Play Store</a> | <a href="#">Code</a></p>
+          </div>
+          <div class="col-sm-3 textbox">
+            <div style="background: black;">
+              <img src="img/lecture.png" class="img-fluid img-hover">
+            </div>
+            <p class="lead center">TUIT Android Lecture</p>
+            <p class="lead link center"><a href="#">Video</a> | <a href="#">Code&Slide</a></p>
+          </div>
+          <div class="col-sm-3 textbox">
+            <div style="background: black;">
+              <img src="img/mrbill.png" class="img-fluid img-hover">
+            </div>
+            <p class="lead center">Mr.Bill</p>
+            <p class="lead link center"><a href="#">Play Store</a> | <a href="#">Video</a> | <a href="#">Code</a></p>
+          </div>
+          <div class="col-sm-3 textbox">
+            <div style="background: black;">
+              <img src="img/aYaCalendar.png" class="img-fluid img-hover">
+            </div>
+            <p class="lead center">aYa Calendar</p>
+            <p class="lead link center"><a href="#"><a href="#">Video</a> | <a href="#">Code</a></p>
+          </div>
+        </div>
 
   </div>
-
-</article>
-
-{% endfor %}
-
-<div class="pagination" style="text-align: center;">
-
-  {% if paginator.next_page %}
-    <h2><a href="{{ paginator.next_page_path }}" class="next">- more posts -</a></h2>
-  {% endif %}
-
-  {% if paginator.previous_page %}
-    <h2><a href="{{ paginator.previous_page_path }}" class="previous">- previous page -</a></h2>
-  {% endif %}
-
-</div>
+  <!-- footer -->
+  <div class="text-center mt-5 mb-0">
+    <p>
+      Designed by
+      <span class="text-primary">Daehwa</span>
+    </p>
+  </div>
+</body>
+</html>

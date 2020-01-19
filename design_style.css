@@ -1,0 +1,82 @@
+#.jumbotron {
+#  background-image: url("./img/cover.jpeg");
+#  background-size: cover;
+#}
+.jumbotron {
+  background: linear-gradient(5deg, #FFFFFF 55%, #D5E1DF 30%);
+  margin-top: 0px;
+  border-radius: 0%;
+}
+body {
+  background-color: #D5E1DF;
+}
+.container{
+  background-color: white;
+  margin-top: 20px;
+  padding: 0px;
+}
+.profile{
+  border-radius: 100%;
+  width: 30%;
+}
+.col-sm-4{
+  margin: 20px;
+}
+
+p.lead{
+  font-size: 20px;
+  margin: 0px;
+}
+
+h5{
+  font-size: 18px;
+}
+
+.textbox{
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1%;
+  margin-top: 10px;
+}
+
+hr{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.lead.author{
+  font-size: 18px;
+}
+
+.lead.title{
+  font-size: 20px;
+}
+
+.lead.publisher{
+  
+  font-size: 15px;  
+  font-style: italic;
+}
+
+.lead.link{
+  
+  font-size: 15px;
+}
+
+.lead.date{
+  font-size: 18px;
+}
+
+.lead.center{
+	text-align: center;
+}
+
+.img-hover:hover{
+	opacity: 0.3;
+}
