@@ -74,9 +74,27 @@ hr{
 }
 
 .lead.center{
-	text-align: center;
+  text-align: center;
+}
+
+p.text-on-img-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  align-content: center;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.img-hover{
+  position: relative;
 }
 
 .img-hover:hover{
-	opacity: 0.3;
+  opacity: 0.4;
+}
+.img-hover:hover > p.text-on-img-center {
+  visibility: visible;
 }
