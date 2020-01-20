@@ -78,24 +78,29 @@ hr{
   text-align: center;
 }
 
-p.text-on-img-center{
+.img-hover-container{
+  position:relative;
+  background: black;
+  display:block;
+  overflow:hidden;
+}
+
+.text{
+  position: absolute;
+  visibility: hidden;
+  color: white;
+}
+
+.img-hover-container .text-hover:hover .text{
   position: absolute;
   top: 50%;
   left: 50%;
-  align-content: center;
-  transform: translate(-50%, -50%);
   color: white;
-  text-align: center;
-  font-size: 20px;
-}
-
-.img-hover{
-  position: relative;
-}
-
-.img-hover:hover{
-  opacity: 0.4;
-}
-.img-hover:hover > p.text-on-img-center {
   visibility: visible;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.img-hover-container .text-hover:hover .img-hover{
+  opacity: 0.4;
 }
