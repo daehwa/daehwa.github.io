@@ -3,7 +3,7 @@
 #  background-size: cover;
 #}
 .jumbotron {
-  background: linear-gradient(5deg, #FFFFFF 55%, #D5E1DF 30%);
+  background: linear-gradient(5deg, #FFFFFF 60%, #D5E1DF 30%);
   margin-top: 0px;
   border-radius: 0%;
 }
