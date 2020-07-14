@@ -17,9 +17,27 @@ border-radius: 10%;
   color: white;
 }
 .fa-facebook:hover {
+  background: #356ac3;
+  color: white;
+  text-decoration:none;
+}
+
+.fa-scholar{
+  background: #356ac3;
+  color: white;
+  content:url("./img/google_scholar.png");
+  vertical-align: middle;
+}
+
+.fa-scholar:hover {
   background: #3B5998;
   color: white;
   text-decoration:none;
+  content:url("./img/google_scholar.png");
+  display: inline-block;
+  background-position:center;
+  background-size:cover;
+  vertical-align: middle;
 }
 
 .fa-twitter{
