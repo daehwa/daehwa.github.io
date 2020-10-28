@@ -40,6 +40,24 @@ border-radius: 10%;
   vertical-align: middle;
 }
 
+.fa-cv{
+  background: #10D896;
+  color: white;
+  content:url("./img/cv_logo.png");
+  vertical-align: middle;
+}
+
+.fa-cv:hover {
+  background: #10D896;
+  color: white;
+  text-decoration:none;
+  content:url("./img/cv_logo.png");
+  display: inline-block;
+  background-position:center;
+  background-size:cover;
+  vertical-align: middle;
+}
+
 .fa-twitter{
   background: #55ACEE;
   color: white;
