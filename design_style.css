@@ -6,7 +6,18 @@
   background: linear-gradient(5deg, #FFFFFF 60%, #D5E1DF 30%);
   margin-top: 0px;
   border-radius: 0%;
+  padding: 10px;
 }
+
+a{
+  border-bottom: 1px black dotted;
+  color: black;
+  /*color: #007c89;*/
+}
+
+br {
+      line-height: 10%;
+   }
 
 body {
   background-color: #D5E1DF;
@@ -25,7 +36,7 @@ body {
 }
 
 p.lead{
-  font-size: 20px;
+  font-size: 18px;
   margin: 0px;
 }
 
@@ -52,11 +63,11 @@ hr{
 }
 
 .lead.author{
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .lead.title{
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .lead.publisher{
@@ -71,7 +82,7 @@ hr{
 }
 
 .lead.date{
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .lead.center{
