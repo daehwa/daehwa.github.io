@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QR444NHQV7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-QR444NHQV7');
+  </script>
+  <link rel="icon" href="img/profile.jpg">
+  <title>Daehwa Kim</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="icon_style.css">
+  <link rel="stylesheet" type="text/css" href="design_style.css">
+  <!-- JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body class="home blog custom-background wp-custom-logo group-blog" data-gr-c-s-loaded="true">
+  <div class="container">
+    <div class="text-center mb-0" style="padding: 20px;">
+
+      <h3 class="lead" style="font-size: 25px;">
+        AtaTouch: Robust Finger Pinch Detection for a VR Controller Using RF Return Loss
+      </h3>
+      <h4 class="lead">Daehwa Kim, Keunwoo Park, Geehyuk Lee</h4>
+      <h4 class="lead" style="font-size: 18px;">CHI 2021</h4>
+      <h4 class="lead" style="font-size: 18px; color: #ed4545;">
+        <i class="fa fa-trophy" style="pointer-events: none;"></i>
+        Honorable Mention Award
+      </h4>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/elbb-FKc_a8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+
+    <hr style="margin-right: 20px; margin-left: 20px; margin-top: 0px; margin-bottom: 0px;">
+
+    <div class="container" style="padding: 30px; padding-top: 0px">
+
+    <div class="col-sm-12 center">
+      <h2 class="lead" style="font-size: 25px;">Abstract</h2>
+      <p class="lead textbox" style="font-size: 16px; margin: 15px">
+        Handheld controllers are an essential part of VR systems. Modern sensing techniques enable them to track users’ finger movements to support natural interaction using hands. The sensing techniques, however, often fail to precisely determine whether two fingertips touch each other, which is important for the robust detection of a pinch gesture. To address this problem, we propose AtaTouch, which is a novel, robust sensing technique for detecting the closure of a finger pinch. It utilizes a change in the coupled impedance of an antenna and human fingers when the thumb and finger form a loop. We implemented a prototype controller in which AtaTouch detects the finger pinch of the grabbing hand. A user test with the prototype showed a finger-touch detection accuracy of 96.4%. Another user test with the scenarios of moving virtual blocks demonstrated low object-drop rate (2.75%) and false-pinch rate (4.40%). The results and feedback from the participants support the robustness and sensitivity of AtaTouch.
+      </p>
+    </div>
+
+    <div class="col-sm-12 center">
+      <h2 class="lead" style="font-size: 25px;">Sensing Principle</h2>
+      <img class="center" src="./img/atatouch_sensing_principle.png" width="100%" style="max-width: 600px;" />
+      <p class="lead textbox" style="font-size: 16px; margin: 15px">
+        We leverage the impedance change of an antenna when electro- magnetically coupled with human fingers. When a high-frequency AC signal flows to an antenna, an electromagnetic field is induced (Figure 2 left). The human body is electrically conductive at radio frequency. Therefore, the electromagnetic field induces a current in the fingers near the antenna when fingers are aligned to the electric field of the antenna (arrows in Figure 2 left). Owing to the inductance components in the antenna and the fingers (Figure 2 right), their impedance is mutually coupled. As the pinching fingers are closed or opened, the capacitor component in the hand changes. This impedance change by the finger touch state subsequently changes the antenna return loss.
+      </p>
+    </div>
+
+    <div class="col-sm-12 center">
+      <h2 class="lead" style="font-size: 25px;">Prototype</h2>
+      <div>
+        <img class="center" src="./img/atatouch_prototype_controller.png" width="100%" style="max-width: 600px;" />
+        <img class="center" src="./img/atatouch_representative.png" width="100%" style="max-width: 600px;" />
+      </div>
+    </div>
+
+    </div>
+    <!-- footer -->
+    <div class="text-center mt-5 mb-5">
+      <p class="lead publisher">
+        Designed by
+        <a href="http://daehwa.github.io" style="border: none;"><span class="text-primary">Daehwa</span></a>
+      </p>
+    </div>
+  </div>
+
+
+</body>
+</html>
