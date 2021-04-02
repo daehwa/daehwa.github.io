@@ -1,12 +1,36 @@
-#.jumbotron {
-#  background-image: url("./img/cover.jpeg");
-#  background-size: cover;
-#}
-.jumbotron {
+/*.jumbotron {
+  background-image: url("./img/cover.jpeg");
+  background-size: cover;
+}*/
+
+/*.jumbotron {
   background: linear-gradient(5deg, #FFFFFF 60%, #D5E1DF 30%);
   margin-top: 0px;
   border-radius: 0%;
   padding: 10px;
+}*/
+
+
+/*.jumbotron {
+  background: linear-gradient(5deg, #FFFFFF 60%, #D5E1DF 30%);
+  margin-top: 0px;
+  border-radius: 0%;
+  padding: 10px;
+}
+
+body {
+  background-color: #D5E1DF;
+}*/
+
+.jumbotron {
+  background: linear-gradient(5deg, #FFFFFF 60%, #D4E6F199 30%);
+  margin-top: 0px;
+  border-radius: 0%;
+  padding: 10px;
+}
+
+body {
+  background-color: #D4E6F199;
 }
 
 a{
@@ -19,9 +43,6 @@ br {
       line-height: 10%;
    }
 
-body {
-  background-color: #D5E1DF;
-}
 .container{
   background-color: white;
   margin-top: 20px;
