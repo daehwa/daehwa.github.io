@@ -37,7 +37,20 @@
         Honorable Mention Award
       </h4>
       <div class="col-m-8 center">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/elbb-FKc_a8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <div class="center" style="max-width: 600px;">
+          <div class="video_container">
+            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/elbb-FKc_a8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <p class="lead link">
+          Link: 
+          <a href="./paper/AtaTouch_paper.pdf" target="_blank">Paper</a> | 
+          DOI | 
+          <a href="https://youtu.be/elbb-FKc_a8" target="_blank">Video</a> | 
+          Code
+        </p>
       </div>
 
     </div>
@@ -46,28 +59,28 @@
 
     <div class="container" style="padding: 30px; padding-top: 0px">
 
-    <div class="col-sm-12 center">
-      <h2 class="lead" style="font-size: 25px;">Abstract</h2>
-      <p class="lead textbox" style="font-size: 16px; margin: 15px">
-        Handheld controllers are an essential part of VR systems. Modern sensing techniques enable them to track users’ finger movements to support natural interaction using hands. The sensing techniques, however, often fail to precisely determine whether two fingertips touch each other, which is important for the robust detection of a pinch gesture. To address this problem, we propose AtaTouch, which is a novel, robust sensing technique for detecting the closure of a finger pinch. It utilizes a change in the coupled impedance of an antenna and human fingers when the thumb and finger form a loop. We implemented a prototype controller in which AtaTouch detects the finger pinch of the grabbing hand. A user test with the prototype showed a finger-touch detection accuracy of 96.4%. Another user test with the scenarios of moving virtual blocks demonstrated low object-drop rate (2.75%) and false-pinch rate (4.40%). The results and feedback from the participants support the robustness and sensitivity of AtaTouch.
-      </p>
-    </div>
-
-    <div class="col-sm-12 center">
-      <h2 class="lead" style="font-size: 25px;">Sensing Principle</h2>
-      <img class="center" src="./img/atatouch_sensing_principle.png" width="100%" style="max-width: 600px;" />
-      <p class="lead textbox" style="font-size: 16px; margin: 15px">
-        We leverage the impedance change of an antenna when electro- magnetically coupled with human fingers. When a high-frequency AC signal flows to an antenna, an electromagnetic field is induced (Figure 2 left). The human body is electrically conductive at radio frequency. Therefore, the electromagnetic field induces a current in the fingers near the antenna when fingers are aligned to the electric field of the antenna (arrows in Figure 2 left). Owing to the inductance components in the antenna and the fingers (Figure 2 right), their impedance is mutually coupled. As the pinching fingers are closed or opened, the capacitor component in the hand changes. This impedance change by the finger touch state subsequently changes the antenna return loss.
-      </p>
-    </div>
-
-    <div class="col-sm-12 center">
-      <h2 class="lead" style="font-size: 25px;">Prototype</h2>
-      <div>
-        <img class="center" src="./img/atatouch_prototype_controller.png" width="100%" style="max-width: 600px;" />
-        <img class="center" src="./img/atatouch_representative.png" width="100%" style="max-width: 600px;" />
+      <div class="col-sm-12 center">
+        <h2 class="lead" style="font-size: 25px;">Abstract</h2>
+        <p class="lead textbox" style="font-size: 16px; margin: 15px">
+          Handheld controllers are an essential part of VR systems. Modern sensing techniques enable them to track users’ finger movements to support natural interaction using hands. The sensing techniques, however, often fail to precisely determine whether two fingertips touch each other, which is important for the robust detection of a pinch gesture. To address this problem, we propose AtaTouch, which is a novel, robust sensing technique for detecting the closure of a finger pinch. It utilizes a change in the coupled impedance of an antenna and human fingers when the thumb and finger form a loop. We implemented a prototype controller in which AtaTouch detects the finger pinch of the grabbing hand. A user test with the prototype showed a finger-touch detection accuracy of 96.4%. Another user test with the scenarios of moving virtual blocks demonstrated low object-drop rate (2.75%) and false-pinch rate (4.40%). The results and feedback from the participants support the robustness and sensitivity of AtaTouch.
+        </p>
       </div>
-    </div>
+
+      <div class="col-sm-12 center">
+        <h2 class="lead" style="font-size: 25px;">Sensing Principle</h2>
+        <img class="center" src="./img/atatouch_sensing_principle.png" width="100%" style="max-width: 600px;" />
+        <p class="lead textbox" style="font-size: 16px; margin: 15px">
+          We leverage the impedance change of an antenna when electromagnetically coupled with human fingers. When a high-frequency AC signal flows to an antenna, an electromagnetic field is induced (Figure 2 left). The human body is electrically conductive at radio frequency. Therefore, the electromagnetic field induces a current in the fingers near the antenna when fingers are aligned to the electric field of the antenna (arrows in Figure 2 left). Owing to the inductance components in the antenna and the fingers (Figure 2 right), their impedance is mutually coupled. As the pinching fingers are closed or opened, the capacitor component in the hand changes. This impedance change by the finger touch state subsequently changes the antenna return loss.
+        </p>
+      </div>
+
+      <div class="col-sm-12 center">
+        <h2 class="lead" style="font-size: 25px;">Prototype</h2>
+        <div>
+          <img class="center" src="./img/atatouch_prototype_controller.png" width="100%" style="max-width: 600px;" />
+          <img class="center" src="./img/atatouch_representative.png" width="100%" style="max-width: 600px;" />
+        </div>
+      </div>
 
     </div>
     <!-- footer -->

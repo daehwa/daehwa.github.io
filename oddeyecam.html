@@ -10,7 +10,7 @@
     gtag('config', 'G-QR444NHQV7');
   </script>
   <link rel="icon" href="img/profile.jpg">
-  <title>Daehwa Kim</title>
+  <title>OddEyeCam</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- CSS -->
@@ -28,25 +28,75 @@
     <div class="text-center mb-0" style="padding: 20px;">
 
       <h3 class="lead" style="font-size: 25px;">
-        OddEyeCam: A Sensing Technique for Body-Centric Peephole Interaction</br>Using WFoV RGB and NFoV Depth Cameras
+        OddEyeCam: A Sensing Technique for Body-Centric Peephole Interaction Using WFoV RGB and NFoV Depth Cameras
       </h3>
       <h4 class="lead">Daehwa Kim, Keunwoo Park, Geehyuk Lee</h4>
+      <h4 class="lead" style="font-size: 18px;">UIST 2020</h4>
+      <div class="col-m-8 center">
 
-      <video preload="none" autoplay loop muted playsinline poster="./img/oddeyecam.jpg" style="max-width: 450px;">
-            <source src="./img/oddeyecam.mp4" type="video/mp4">
-      </video>
+        <div class="center" style="max-width: 600px;">
+          <div class="video_container">
+            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/R56iuEuZyo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <p class="lead link">
+            Link:
+            <a href="paper/OddEyeCam_paper.pdf" target="_blank">Paper</a> | 
+            <a href="http://dx.doi.org/10.1145/3379337.3415889" target="_blank">DOI</a> | 
+            <a href="https://youtu.be/R56iuEuZyo0" target="_blank">Video</a> | 
+            <a href="https://github.com/KAIST-HCIL/OddEyeCam">Code</a>
+        </p>
+      </div>
 
     </div>
 
     <hr style="margin-right: 20px; margin-left: 20px; margin-top: 0px; margin-bottom: 0px;">
 
     <div class="container" style="padding: 30px; padding-top: 0px">
+
+      <div class="col-sm-12 center">
+        <h2 class="lead" style="font-size: 25px;">Abstract</h2>
+        <p class="lead textbox" style="font-size: 16px; margin: 15px">
+          The space around the body not only expands the interaction space of a mobile device beyond its small screen, but also enables users to utilize their kinesthetic sense. Therefore, body-centric peephole interaction has gained considerable attention. To support its practical implementation, we propose OddEyeCam, which is a vision-based method that tracks the 3D location of a mobile device in an absolute, wide, and continuous manner with respect to the body of a user in both static and mobile environments. OddEyeCam tracks the body of a user using a wide-view RGB camera and obtains precise depth information using a narrow-view depth camera from a smartphone close to the body. We quantitatively evaluated OddEyeCam through an accuracy test and two user studies. The accuracy test showed the average tracking accuracy of OddEyeCam was 4.17 and 4.47cm in 3D space when a participant is standing and walking, respectively. In the first user study, we implemented various interaction scenarios and observed that OddEyeCam was well received by the participants. In the second user study, we observed that the peephole target acquisition task performed using our system followed Fitts’ law. We also analyzed the performance of OddEyeCam using the obtained measurements and observed that the participants completed the tasks with sufficient speed and accuracy.
+        </p>
+      </div>
+
+      <div class="col-sm-12 center">
+        <h2 class="lead" style="font-size: 25px;">Overall Pipeline</h2>
+        <img class="center" src="./img/oddeyecam_overall_pipeline.png" width="100%" style="max-width: 500px;" />
+
+        <div class="center" style="max-width: 600px;">
+          <div class="video_container">
+            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/FTaa7KbF488?start=39" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <p class="lead textbox" style="font-size: 16px; margin: 15px">
+          1) A WFoV RGB camera provides a whole-body image. <br>
+          2) An RGB-D camera provides partial body depth and RGB image. <br>
+          3) An distortion-alleviation module reduces the distortion of the fisheye image through an equirectangular projection. A body-tracking algorithm provides body keypoints from the undistorted image. <br>
+          4) The body keypoints found in the WFoV image can be projected to the NFoV depth image by combining two cameras. <br>
+          5) Using keypoints and depth information, as well as additional gravity vector from an accelerometer, we can estimate the body coordinate system. <br>
+          6) We can obtain the device location with respect to the body by converting the body position (obtained in Step 5) with respect to the camera. <br>
+        </p>
+      </div>
+
+      <div class="col-sm-12 center">
+        <h2 class="lead" style="font-size: 25px;">Example Applications</h2>
+        <div class="center" style="max-width: 600px;">
+          <div class="video_container">
+            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/FTaa7KbF488?start=139" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
     </div>
     <!-- footer -->
     <div class="text-center mt-5 mb-5">
       <p class="lead publisher">
         Designed by
-        <span class="text-primary">Daehwa</span>
+        <a href="http://daehwa.github.io" style="border: none;"><span class="text-primary">Daehwa</span></a>
       </p>
     </div>
   </div>
