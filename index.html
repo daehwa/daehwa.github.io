@@ -22,15 +22,38 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="icon_style.css">
   <link rel="stylesheet" type="text/css" href="design_style.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Yellowtail" />
   <!-- JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <style>
+      @font-face { font-family: Yellowtail; src: url('./Yellowtail/Yellowtail-Regular.ttf'); } 
+  </style>
 </head>
+
+<div>
+<ul style="top: 0; background: white; width: 100%;">
+    <li style="float: left;">
+      <a class="active" href="./index.html" style="font-family: Yellowtail; font-size: 35px;">
+      Daehwa Kim</a>
+    </li>
+    <li>
+        <a href="#about">About</a>
+        <a href="#publication">Publication</a>
+        <a href="#award">Award</a>
+        <a href="#researchexp">Reserach Experience</a>
+        <a href="#education">Education</a>
+        <a href="#teachingexp">Teaching Experience</a>
+        <a href="#campusact">Campus Activity</a>
+        <a href="#project">Project</a>
+    </li>
+</ul>
+
 <body class="home blog custom-background wp-custom-logo group-blog" data-gr-c-s-loaded="true">
   <div class="container">
     <!-- header -->
-    <div class="jumbotron text-center mb-0">
+    <div  id="about" class="jumbotron text-center mb-0">
       <div class="col-sm-5 center">
         <img src="img/profile.jpg" class="profile">
       </div>
@@ -65,7 +88,10 @@
                     where I had a great opportunity to work with professor
                     <a href="https://hcil.kaist.ac.kr/geehyuk-lee/" style="color: black" target="_blank">
                       Geehyuk Lee</a>.
-                    My research goal is engineering for a fluid interface, exploring a seamless integration of a computer and human that makes new and pleasant experiences. My research interests lie in sensing technologies, sensor fabrication, and AR/VR/MR interfaces. I presented full papers at ACM<a href="https://dl.acm.org/conference/chi">CHI</a> and <a href="https://dl.acm.org/conference/uist">UIST</a> and have received an Honorable Mention award at CHI 2021.</br>
+                    My research goal is engineering for a fluid interface, exploring a seamless integration of a computer and human that makes new and pleasant experiences. My research interests lie in sensing technologies, sensor fabrication, and AR/VR/MR interfaces. I presented full papers at ACM
+                    <a href="https://dl.acm.org/conference/chi">
+                      CHI
+                    </a> and <a href="https://dl.acm.org/conference/uist">UIST</a> and have received an Honorable Mention award at CHI 2021.</br>
                     <p class="lead" style="font-style: italic;"><strong>I am actively looking for Ph.D. positions for Fall 2022!</strong></p>
                     <!-- I love Computer Science, Electrical Engineering, video editing, and playing with a drone. -->
               </p>
@@ -85,7 +111,7 @@
       <!-- content -->
 
         <!-- side menu (link) -->
-        <h4>PUBLICATIONS</h4>
+        <h4 id="publication">PUBLICATIONS</h4>
         <div class="row col-md-10" style=" align-items: center;">
           <div class="col-md-10 textbox">
             <p class="lead author"><mark style="background: #D4E6F199"><strong>Daehwa Kim</strong></mark>,
@@ -143,7 +169,7 @@
           </div>
         </div>
         <hr>
-        <h4>AWARDS</h4>
+        <h4 id="award">AWARDS</h4>
         <div class="col-md-12 textbox">
             <div class="textbox">
               <p class="lead date">Mar 2021</p>
@@ -177,7 +203,7 @@
             </div>
         </div>
         <hr>
-        <h4>RESEARCH EXPERIENCES</h4>
+        <h4 id="researchexp">RESEARCH EXPERIENCES</h4>
         <div class="col-md-12 textbox">
             <div class="textbox">
               <p class="lead date" style="display:inline;">Sep 2021 - Current</p>
@@ -201,7 +227,7 @@
             </div>
         </div>
         <hr>
-        <h4>EDUCATION</h4>
+        <h4 id="education">EDUCATION</h4>
             <div class="row col-md-12" style=" align-items: center;">
                 <div class="textbox col-md-10">
                   <p class="lead date">Mar 2019 - Feb 2021</p>
@@ -222,7 +248,7 @@
             </div>
         <hr>
 
-        <h4>TEACHING EXPERIENCES</h4>
+        <h4 id="teachingexp">TEACHING EXPERIENCES</h4>
             <div class="col-md-12 textbox">
               <div class="textbox">
                 <p class="lead date">Sep 2018 - Dec 2018</p>
@@ -240,7 +266,7 @@
             </div>
         <hr>
 
-        <h4>CAMPUS ACTIVITIES</h4>
+        <h4 id="campusact">CAMPUS ACTIVITIES</h4>
         <div class="row col-md-12">
             <div class="col-sm-7">
                 <div class="textbox">
@@ -275,7 +301,7 @@
         </div>
 
         <hr>
-        <h4>PROJECTS</h4>
+        <h4 id="project">PROJECTS</h4>
         <div class="row">
           <div class="col-sm-3 textbox">
             <div class="img-hover-container">

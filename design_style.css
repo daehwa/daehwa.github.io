@@ -22,6 +22,14 @@ body {
   background-color: #D5E1DF;
 }*/
 
+body{
+  padding-top: 40px; 
+}
+
+html{
+  scroll-padding-top: 20%;
+}
+
 .jumbotron {
   background: linear-gradient(5deg, #FFFFFF 60%, #D4E6F199 30%);
   margin-top: 0px;
@@ -81,6 +89,37 @@ h5{
 hr{
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  z-index: 5;
+  text-align:center;
+}
+
+li {
+  display:inline-block;
+  position: relative;
+  float:right;
+  list-style: none;
+  text-align: center;
+}
+
+li a {
+  display: inline;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+li a:hover { 
+  /*background-color: #D4E6F199;*/
+  text-decoration: none;
 }
 
 .lead.author{
