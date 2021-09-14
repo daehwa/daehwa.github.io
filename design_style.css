@@ -98,14 +98,7 @@ ul {
   position: fixed;
   z-index: 5;
   text-align:center;
-}
-
-li {
-  display:inline-block;
-  position: relative;
-  float:right;
-  list-style: none;
-  text-align: center;
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.2);
 }
 
 li a {
@@ -120,6 +113,54 @@ li a {
 li a:hover { 
   /*background-color: #D4E6F199;*/
   text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  color: black;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  font-size: 12px;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 .lead.author{
