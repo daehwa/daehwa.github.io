@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QR444NHQV7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-QR444NHQV7');
+  </script>
+  <link rel="icon" href="img/profile.jpg">
+  <title>AtaTouch</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+  />
+  <link rel="stylesheet" href="icon_style.css">
+  <link rel="stylesheet" type="text/css" href="design_style.css">
+  <!-- JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <style>
+      @font-face { font-family: Yellowtail; src: url('./Yellowtail/Yellowtail-Regular.ttf'); } 
+  </style>
+</head>
+
+<ul style="top: 0; background: white; width: 100%;">
+    <li style="float: left;">
+      <a class="active" href="./index.html" style="font-family: Yellowtail; font-size: 35px;">
+      Daehwa Kim</a>
+    </li>
+</ul>
+
+<body class="home blog custom-background wp-custom-logo group-blog" data-gr-c-s-loaded="true">
+  <!-- <div class="container" style="margin-bottom:0px; background: transparent;">
+    <a href="./index.html"><h1 class="display-4" style="font-size: 25px;">Daehwa Kim</h1></a>
+  </div> -->
+
+  <div class="container">
+    <div class="text-center mb-0" style="padding: 20px;">
+
+      <h3 class="lead" style="font-size: 25px;">
+        Computational Photography (15862): 3D scanner with structured light
+      </h3>
+      <div class="row">
+        <div class="col-m-1 center">
+          <img class="center" src="./img/3dscanner_setup.png" style="max-height: 300px;" />
+        </div>
+        <div class="col-m-1 center">
+          <img class="center" src="./img/shadow3dscanner.jpg" style="max-height: 300px;" />
+        </div>
+        <div class="col-m-1 center">
+          <img class="center" src="./img/baby_yoda_matplot.jpg" style="max-height: 300px;" />
+        </div>
+      </div>
+      <p class="lead textbox" style="font-size: 12px; margin: 15px">
+        * Baby Yoda is from <a href="https://theisclab.com/">ISC Lab</a> 💙 :)
+      </p>
+
+    </div>
+
+    <hr style="margin-right: 20px; margin-left: 20px; margin-top: 0px; margin-bottom: 0px;">
+
+    <div class="container" style="padding: 30px; padding-top: 0px">
+
+      <div class="col-sm-12 center">
+        <h2 class="lead" style="font-size: 25px;">About this project</h2>
+        <p class="lead textbox" style="font-size: 16px; margin: 15px">
+          Only using shadow and some camera calibrations, we can make 3D scanner! This project is a part of the coursework '<a href='http://graphics.cs.cmu.edu/courses/15-463/'>Computational Photography</a>' taught by Professor <a href='http://www.cs.cmu.edu/~igkioule/'>Ioannis Gkioulekas</a>. (One of the best courses that I have ever taken) There are five more projects rather than this, but I think this is very cool among them so I leave a note on my website.
+        </p>
+      </div>
+
+
+      <div class="col-sm-12 center">
+        <h2 class="lead" style="font-size: 25px;">Implementation</h2>
+        <p class="lead textbox" style="font-size: 16px; margin: 15px">
+          The implementation steps include (1) building vertical and horizontal planes with retangular references and fixed camera, (2) video shooting with a stick and a light, (3) shadow edge estimation, (4) shadow time estimation, (5) coordinate system estimation with camera extrinsic parameters, (6) shadow line / plane calibration, and (7) finding intersection points between camera ray and shadow plane for reconstruction.
+
+          More details are available on the course website <a href="http://graphics.cs.cmu.edu/courses/15-463/assignments/assgn6.zip">assignment instruction</a>.
+        </p>
+        <div class="text-center mb-0" style="padding: 20px;">
+        <div class="row">
+
+          <div class="col-md-6 center">
+            <video preload="none" autoplay loop muted playsinline poster="./img/baby_yoda_matplot.jpg" style=" max-height: 500px;">
+              <source src="./img/baby_yoda.mov" type="video/mp4">
+            </video>
+          </div>
+
+          <div class="col-md-6 center">
+            <video preload="none" autoplay loop muted playsinline poster="./img/baby_yoda_matplot.jpg" style=" max-height: 500px;">
+              <source src="./img/solidknit.mov" type="video/mp4">
+            </video>
+            <p class="lead textbox" style="font-size: 12px; margin: 15px">
+            *  The scanned obje is from <a href="https://youtu.be/xsOJ_eJRG4c">SolidKnit by Yuichi Hirose</a>! :)
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="col-sm-12 center">
+        <h2 class="lead" style="font-size: 25px;">Source code</h2>
+        <p class="lead textbox" style="font-size: 16px; margin: 15px">
+          As this is a part of course projects, the source code is available upon request.
+        </p>
+      </div>
+
+    </div>
+
+    <hr style="margin-right: 20px; margin-left: 20px; margin-top: 0px; margin-bottom: 0px;">
+    <!-- footer -->
+    <div class="text-center mt-5 mb-5">
+      <p class="lead publisher">
+        Designed by
+        <a href="http://daehwa.github.io" style="border: none;"><span class="text-primary">Daehwa</span></a>
+      </p>
+    </div>
+  </div>
+
+
+</body>
+</html>
