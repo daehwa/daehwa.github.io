@@ -47,6 +47,12 @@ a{
   /*color: #007c89;*/
 }
 
+a:hover{
+  border-bottom: 1px #007c89 dotted;
+  text-decoration: none;
+  color: #007c89;
+}
+
 br {
       line-height: 10%;
    }
